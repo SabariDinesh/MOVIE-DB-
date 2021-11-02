@@ -1,0 +1,129 @@
+import UIKit
+import CoreData
+import ThemePod
+
+
+@main
+class AppDelegate: UIResponder, UIApplicationDelegate, UNUserNotificationCenterDelegate{
+        let uuidString = UUID().uuidString
+        var isLightTheme = false
+        func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
+            //if any user default option is available we are going to access that theme
+            if UserDefaults.standard.object(forKey: "LightTheme") != nil {
+                if UserDefaults.standard.bool(forKey: "LightTheme"){
+                    ThemeManager.shared.currentTheme = LightTheme
+                    isLightTheme = true
+                }else{
+                    ThemeManager.shared.currentTheme = DarkTheme
+                    isLightTheme = false
+                }
+            }
+            else{
+                ThemeManager.shared.currentTheme = LightTheme
+                isLightTheme = true
+            }
+            
+            //local notification
+            let center = UNUserNotificationCenter.current()
+            center.delegate = self
+            //step 1 -> ask for the user authorization
+            center.requestAuthorization(options: [.alert, .badge, .sound]) { response, error in
+                if response{
+                    print("user allowed the notification")
+                }else{
+                    print("user denied the notification")
+                }
+            }
+            
+            //step 2 -> what kind of content
+            let content = UNMutableNotificationContent()
+            content.title = "Theme change suggestion"
+            content.body = "It's been hitting night.. wanna change theme"
+            content.sound = .defaultCritical
+            
+            //step 3 ->trigger when is to be pushed
+            
+            var dateComponents = DateComponents()
+            dateComponents.calendar = Calendar.current
+            dateComponents.hour = 15
+            dateComponents.minute = 58
+            
+            let trigger = UNCalendarNotificationTrigger(dateMatching: dateComponents, repeats: false)
+            
+            //step 4 -> request where trigger and content combines
+            let request = UNNotificationRequest(identifier: uuidString, content: content, trigger: trigger)
+            
+            //step 5 -> register this notification to the notification center
+            if isLightTheme{
+              center.add(request) { error in
+                  if error != nil{
+                  print("error in the code")
+                  }
+               }
+            }
+        
+
+        return true
+    }
+
+    // MARK: UISceneSession Lifecycle
+
+    func application(_ application: UIApplication, configurationForConnecting connectingSceneSession: UISceneSession, options: UIScene.ConnectionOptions) -> UISceneConfiguration {
+        // Called when a new scene session is being created.
+        // Use this method to select a configuration to create the new scene with.
+        return UISceneConfiguration(name: "Default Configuration", sessionRole: connectingSceneSession.role)
+    }
+
+    func application(_ application: UIApplication, didDiscardSceneSessions sceneSessions: Set<UISceneSession>) {
+        // Called when the user discards a scene session.
+        // If any sessions were discarded while the application was not running, this will be called shortly after application:didFinishLaunchingWithOptions.
+        // Use this method to release any resources that were specific to the discarded scenes, as they will not return.
+    }
+
+    // MARK: - Core Data stack
+
+    lazy var persistentContainer: NSPersistentContainer = {
+        /*
+         The persistent container for the application. This implementation
+         creates and returns a container, having loaded the store for the
+         application to it. This property is optional since there are legitimate
+         error conditions that could cause the creation of the store to fail.
+        */
+        let container = NSPersistentContainer(name: "collection_view_sample")
+        container.loadPersistentStores(completionHandler: { (storeDescription, error) in
+            if let error = error as NSError? {
+                // Replace this implementation with code to handle the error appropriately.
+                // fatalError() causes the application to generate a crash log and terminate. You should not use this function in a shipping application, although it may be useful during development.
+                 
+                /*
+                 Typical reasons for an error here include:
+                 * The parent directory does not exist, cannot be created, or disallows writing.
+                 * The persistent store is not accessible, due to permissions or data protection when the device is locked.
+                 * The device is out of space.
+                 * The store could not be migrated to the current model version.
+                 Check the error message to determine what the actual problem was.
+                 */
+                fatalError("Unresolved error \(error), \(error.userInfo)")
+            }
+        })
+        return container
+    }()
+
+    // MARK: - Core Data Saving support
+
+    func saveContext () {
+        let context = persistentContainer.viewContext
+        if context.hasChanges {
+            do {
+                try context.save()
+            } catch {
+                // Replace this implementation with code to handle the error appropriately.
+                // fatalError() causes the application to generate a crash log and terminate. You should not use this function in a shipping application, although it may be useful during development.
+                let nserror = error as NSError
+                fatalError("Unresolved error \(nserror), \(nserror.userInfo)")
+            }
+        }
+    }
+
+}
+

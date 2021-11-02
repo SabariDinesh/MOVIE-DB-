@@ -1,0 +1,16 @@
+PODS:
+  - ThemePod (0.1.0)
+
+DEPENDENCIES:
+  - ThemePod (from `/Users/sabari-pt4418/Desktop/Theme Pod/ThemePod`)
+
+EXTERNAL SOURCES:
+  ThemePod:
+    :path: "/Users/sabari-pt4418/Desktop/Theme Pod/ThemePod"
+
+SPEC CHECKSUMS:
+  ThemePod: ebfaa8b79f0dcd6075bb820a838bda358f9e3547
+
+PODFILE CHECKSUM: dd9acfdbba78a36d43af558a84a68fba59f40934
+
+COCOAPODS: 1.11.2
