@@ -7,65 +7,73 @@ import ThemePod
 class AppDelegate: UIResponder, UIApplicationDelegate, UNUserNotificationCenterDelegate{
         let uuidString = UUID().uuidString
         var isLightTheme = false
-        func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
-            //if any user default option is available we are going to access that theme
-            if UserDefaults.standard.object(forKey: "LightTheme") != nil {
-                if UserDefaults.standard.bool(forKey: "LightTheme"){
-                    ThemeManager.shared.currentTheme = LightTheme
-                    isLightTheme = true
-                }else{
-                    ThemeManager.shared.currentTheme = DarkTheme
-                    isLightTheme = false
-                }
-            }
-            else{
-                ThemeManager.shared.currentTheme = LightTheme
-                isLightTheme = true
-            }
+    
+    func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
             
-            //local notification
-            let center = UNUserNotificationCenter.current()
-            center.delegate = self
-            //step 1 -> ask for the user authorization
-            center.requestAuthorization(options: [.alert, .badge, .sound]) { response, error in
-                if response{
-                    print("user allowed the notification")
-                }else{
-                    print("user denied the notification")
-                }
-            }
+            checkUserTheme()
+            localThemeNotification()
             
-            //step 2 -> what kind of content
-            let content = UNMutableNotificationContent()
-            content.title = "Theme change suggestion"
-            content.body = "It's been hitting night.. wanna change theme"
-            content.sound = .defaultCritical
-            
-            //step 3 ->trigger when is to be pushed
-            
-            var dateComponents = DateComponents()
-            dateComponents.calendar = Calendar.current
-            dateComponents.hour = 15
-            dateComponents.minute = 58
-            
-            let trigger = UNCalendarNotificationTrigger(dateMatching: dateComponents, repeats: false)
-            
-            //step 4 -> request where trigger and content combines
-            let request = UNNotificationRequest(identifier: uuidString, content: content, trigger: trigger)
-            
-            //step 5 -> register this notification to the notification center
-            if isLightTheme{
-              center.add(request) { error in
-                  if error != nil{
-                  print("error in the code")
-                  }
-               }
-            }
-        
-
         return true
     }
 
+    func checkUserTheme(){
+        //if any user default option is available we are going to access that theme
+        if UserDefaults.standard.object(forKey: "LightTheme") != nil {
+            if UserDefaults.standard.bool(forKey: "LightTheme"){
+                ThemeManager.shared.currentTheme = LightTheme
+                isLightTheme = true
+            }else{
+                ThemeManager.shared.currentTheme = DarkTheme
+                isLightTheme = false
+            }
+        }
+        else{
+            ThemeManager.shared.currentTheme = LightTheme
+            isLightTheme = true
+        }
+    }
+    
+    func localThemeNotification(){
+        //local notification
+        let center = UNUserNotificationCenter.current()
+        center.delegate = self
+        //step 1 -> ask for the user authorization
+        center.requestAuthorization(options: [.alert, .badge, .sound]) { response, error in
+            if response{
+                print("user allowed the notification")
+            }else{
+                print("user denied the notification")
+            }
+        }
+        
+        //step 2 -> what kind of content
+        let content = UNMutableNotificationContent()
+        content.title = "Theme change suggestion"
+        content.body = "It's been hitting night.. wanna change theme"
+        content.sound = .defaultCritical
+        
+        //step 3 ->trigger when is to be pushed
+        
+        var dateComponents = DateComponents()
+        dateComponents.calendar = Calendar.current
+        dateComponents.hour = 15
+        dateComponents.minute = 58
+        
+        let trigger = UNCalendarNotificationTrigger(dateMatching: dateComponents, repeats: false)
+        
+        //step 4 -> request where trigger and content combines
+        let request = UNNotificationRequest(identifier: uuidString, content: content, trigger: trigger)
+        
+        //step 5 -> register this notification to the notification center
+        if isLightTheme{
+          center.add(request) { error in
+              if error != nil{
+              print("error in the code")
+              }
+           }
+        }
+    }
+    
     // MARK: UISceneSession Lifecycle
 
     func application(_ application: UIApplication, configurationForConnecting connectingSceneSession: UISceneSession, options: UIScene.ConnectionOptions) -> UISceneConfiguration {

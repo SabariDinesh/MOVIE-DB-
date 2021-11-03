@@ -24,7 +24,7 @@ class MainViewController: UIViewController{
     
     override func loadView(){
         super.loadView()
-        checkForTheme()
+        switchButtonConfig()
         addSpecifications()
         addSubViews()
         settingDelegates()
@@ -32,13 +32,14 @@ class MainViewController: UIViewController{
         addActions()
        
     }
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         page = 1
         getApiResponse(iterator: page)
-        }
+    }
     
-    func checkForTheme(){
+    func switchButtonConfig(){
         if UserDefaults.standard.object(forKey: "LightTheme") != nil {
            if UserDefaults.standard.bool(forKey: "LightTheme"){
                     switchButton.setOn(true, animated: true)
@@ -49,9 +50,8 @@ class MainViewController: UIViewController{
         else{
             switchButton.setOn(true, animated: true)
         }
-        
-        
     }
+    
     func addSubViews(){
         view.addSubview(myCollectionView!)
         view.addSubview(searchBar)
@@ -205,8 +205,6 @@ class MainViewController: UIViewController{
 }
 
 extension MainViewController: UICollectionViewDelegate{
-   
-    
     func collectionView(_ collectionView: UICollectionView, willDisplay cell: UICollectionViewCell, forItemAt indexPath: IndexPath) {
         if queryText != ""{
             if indexPath.item == currentCount-1 && page <= total_pages{
