@@ -1,6 +1,6 @@
 import UIKit
 import CoreData
-import ThemePod
+import Themes
 
 
 @main

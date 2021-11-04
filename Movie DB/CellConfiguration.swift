@@ -6,7 +6,7 @@
 //
 
 import UIKit
-import ThemePod
+import Themes
 
 class CellConfiguration: UICollectionViewCell{
 
