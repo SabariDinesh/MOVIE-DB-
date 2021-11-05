@@ -56,8 +56,8 @@ class AppDelegate: UIResponder, UIApplicationDelegate, UNUserNotificationCenterD
         
         var dateComponents = DateComponents()
         dateComponents.calendar = Calendar.current
-        dateComponents.hour = 15
-        dateComponents.minute = 58
+        dateComponents.hour = 13
+        dateComponents.minute = 50
         
         let trigger = UNCalendarNotificationTrigger(dateMatching: dateComponents, repeats: false)
         
