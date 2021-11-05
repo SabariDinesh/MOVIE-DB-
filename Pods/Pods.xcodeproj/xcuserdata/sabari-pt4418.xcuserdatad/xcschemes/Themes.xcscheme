@@ -14,9 +14,9 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "C95DF7A91DB01E7F3A517BF0B44F1846"
-               BuildableName = "ThemePod.framework"
-               BlueprintName = "ThemePod"
+               BlueprintIdentifier = "7965DE9B94078E1F94DD6DB7E23F0621"
+               BuildableName = "Themes.framework"
+               BlueprintName = "Themes"
                ReferencedContainer = "container:Pods.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
