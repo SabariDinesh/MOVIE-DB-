@@ -5,7 +5,7 @@ import Themes
 
 @main
 class AppDelegate: UIResponder, UIApplicationDelegate, UNUserNotificationCenterDelegate{
-        let uuidString = UUID().uuidString
+
         var isLightTheme = false
     
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
@@ -62,6 +62,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate, UNUserNotificationCenterD
         let trigger = UNCalendarNotificationTrigger(dateMatching: dateComponents, repeats: false)
         
         //step 4 -> request where trigger and content combines
+        let uuidString = UUID().uuidString
         let request = UNNotificationRequest(identifier: uuidString, content: content, trigger: trigger)
         
         //step 5 -> register this notification to the notification center
