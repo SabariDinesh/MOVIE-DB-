@@ -7,7 +7,7 @@ import Themes
 class AppDelegate: UIResponder, UIApplicationDelegate, UNUserNotificationCenterDelegate{
 
         var isLightTheme = false
-    
+    var empty: String?
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
             
             checkUserTheme()
