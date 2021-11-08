@@ -1,16 +1,22 @@
 PODS:
-  - Themes (2.0.0)
+  - ThemePod (0.1.0)
 
 DEPENDENCIES:
-  - Themes
+  - ThemePod (from `https://github.com/SabariDinesh/ThemePod`, branch `master`)
 
-SPEC REPOS:
-  trunk:
-    - Themes
+EXTERNAL SOURCES:
+  ThemePod:
+    :branch: master
+    :git: https://github.com/SabariDinesh/ThemePod
+
+CHECKOUT OPTIONS:
+  ThemePod:
+    :commit: cefe9f630dd0a31fcc7412178ed17646dfae864e
+    :git: https://github.com/SabariDinesh/ThemePod
 
 SPEC CHECKSUMS:
-  Themes: d3810257315e54a035691c204aa40a92f2f1085b
+  ThemePod: ebfaa8b79f0dcd6075bb820a838bda358f9e3547
 
-PODFILE CHECKSUM: 1fc63bc9fffc5799aca71c3f3df6f20134a81040
+PODFILE CHECKSUM: 5fa8593900b157d65ef7038fd9c71da4415dc059
 
 COCOAPODS: 1.11.2

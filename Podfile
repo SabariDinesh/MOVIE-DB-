@@ -3,6 +3,6 @@
 
 target 'Movie DB ' do
   use_frameworks!
- pod 'Themes'
+ pod 'ThemePod', :git => 'https://github.com/SabariDinesh/ThemePod', :branch => 'master'
 
 end

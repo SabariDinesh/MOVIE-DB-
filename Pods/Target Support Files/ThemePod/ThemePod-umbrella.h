@@ -11,6 +11,6 @@
 #endif
 
 
-FOUNDATION_EXPORT double ThemesVersionNumber;
-FOUNDATION_EXPORT const unsigned char ThemesVersionString[];
+FOUNDATION_EXPORT double ThemePodVersionNumber;
+FOUNDATION_EXPORT const unsigned char ThemePodVersionString[];
 

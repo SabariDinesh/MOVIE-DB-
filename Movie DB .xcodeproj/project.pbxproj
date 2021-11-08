@@ -13,7 +13,7 @@
 		5C86F2D7271911D200520FFC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C86F2D6271911D200520FFC /* AppDelegate.swift */; };
 		5C86F2D9271911D200520FFC /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C86F2D8271911D200520FFC /* SceneDelegate.swift */; };
 		5C86F2DB271911D200520FFC /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C86F2DA271911D200520FFC /* MainViewController.swift */; };
-		5C86F2E1271911D200520FFC /* collection_view_sample.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 5C86F2DF271911D200520FFC /* collection_view_sample.xcdatamodeld */; };
+		5C86F2E1271911D200520FFC /* Movie DB.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 5C86F2DF271911D200520FFC /* Movie DB.xcdatamodeld */; };
 		5C86F2E3271911D400520FFC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5C86F2E2271911D400520FFC /* Assets.xcassets */; };
 		5C86F2E6271911D400520FFC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5C86F2E4271911D400520FFC /* LaunchScreen.storyboard */; };
 		5C86F2EF27191ADD00520FFC /* CellConfiguration.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C86F2ED27191ADD00520FFC /* CellConfiguration.swift */; };
@@ -39,8 +39,6 @@
 		5CAE1404271A6624009EE0BD /* DataFormat.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataFormat.swift; sourceTree = "<group>"; };
 		667851F09897CC729F3F5DF4 /* Pods-Movie DB .release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Movie DB .release.xcconfig"; path = "Target Support Files/Pods-Movie DB /Pods-Movie DB .release.xcconfig"; sourceTree = "<group>"; };
 		98F8CF050FDFD912D6354CC7 /* Pods-Movie DB .debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Movie DB .debug.xcconfig"; path = "Target Support Files/Pods-Movie DB /Pods-Movie DB .debug.xcconfig"; sourceTree = "<group>"; };
-		C77EFA4EA622B1C38A395A34 /* Pods-collection view sample.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-collection view sample.release.xcconfig"; path = "Target Support Files/Pods-collection view sample/Pods-collection view sample.release.xcconfig"; sourceTree = "<group>"; };
-		F75ECA1F1C65867A78793F81 /* Pods-collection view sample.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-collection view sample.debug.xcconfig"; path = "Target Support Files/Pods-collection view sample/Pods-collection view sample.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -66,8 +64,6 @@
 		1484417BD48C78DF07C16DDE /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				F75ECA1F1C65867A78793F81 /* Pods-collection view sample.debug.xcconfig */,
-				C77EFA4EA622B1C38A395A34 /* Pods-collection view sample.release.xcconfig */,
 				98F8CF050FDFD912D6354CC7 /* Pods-Movie DB .debug.xcconfig */,
 				667851F09897CC729F3F5DF4 /* Pods-Movie DB .release.xcconfig */,
 			);
@@ -138,7 +134,7 @@
 		5CC4860F27318444005FD097 /* Core data files */ = {
 			isa = PBXGroup;
 			children = (
-				5C86F2DF271911D200520FFC /* collection_view_sample.xcdatamodeld */,
+				5C86F2DF271911D200520FFC /* Movie DB.xcdatamodeld */,
 			);
 			path = "Core data files";
 			sourceTree = "<group>";
@@ -285,7 +281,7 @@
 			files = (
 				5C86F2DB271911D200520FFC /* MainViewController.swift in Sources */,
 				5C86F2D7271911D200520FFC /* AppDelegate.swift in Sources */,
-				5C86F2E1271911D200520FFC /* collection_view_sample.xcdatamodeld in Sources */,
+				5C86F2E1271911D200520FFC /* Movie DB.xcdatamodeld in Sources */,
 				5C361C83271ED6B4004EACDD /* ThemeProperties.swift in Sources */,
 				5C799B4B271D608E003A8893 /* MovieDetailViewController.swift in Sources */,
 				5CAE1405271A6624009EE0BD /* DataFormat.swift in Sources */,
@@ -517,13 +513,13 @@
 /* End XCConfigurationList section */
 
 /* Begin XCVersionGroup section */
-		5C86F2DF271911D200520FFC /* collection_view_sample.xcdatamodeld */ = {
+		5C86F2DF271911D200520FFC /* Movie DB.xcdatamodeld */ = {
 			isa = XCVersionGroup;
 			children = (
 				5C86F2E0271911D200520FFC /* collection_view_sample.xcdatamodel */,
 			);
 			currentVersion = 5C86F2E0271911D200520FFC /* collection_view_sample.xcdatamodel */;
-			path = collection_view_sample.xcdatamodeld;
+			path = "Movie DB.xcdatamodeld";
 			sourceTree = "<group>";
 			versionGroupType = wrapper.xcdatamodel;
 		};

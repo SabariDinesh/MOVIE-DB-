@@ -7,71 +7,71 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		132DE0725E947B12A81311F26C81D0A4 /* Notification.swift in Sources */ = {isa = PBXBuildFile; fileRef = A76F842019555DC629E5784DF4DDDC86 /* Notification.swift */; };
-		1E895B5E3ECF9394F0BC3AAE2EF23664 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
-		46503215C3D333BC0541602084FEAB02 /* Handler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3859B4424BCD889FE9FF888D19BA1D6F /* Handler.swift */; };
-		4ECE1D925EE23EEAC473AD3FD0EAD691 /* Pods-Movie DB -dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 60878CA4A3C1E6D46B76832EB3F7FECF /* Pods-Movie DB -dummy.m */; };
-		6BBE694CD6101EA04FC686505699B535 /* Pods-Movie DB -umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 536449160E42E90FEA43388CEFA513F0 /* Pods-Movie DB -umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		8836E04DDA272783ED9B30BAD82DE0E8 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
-		90D1100DC5097E004D1EDAC1B4AE197D /* Theme.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B461309EEE98D4D353D806137AAB984 /* Theme.swift */; };
-		90E595F2D7010E0284BFA3B7DD0CAED4 /* Themes-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 427C431C0EF29F275F1820F33ED22875 /* Themes-dummy.m */; };
-		A6F396BC99F3B84B6077C2D46615090C /* ThemeManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E05737A23A2AB14DCBB6B7A31BBDE43 /* ThemeManager.swift */; };
-		BDA66FB245CCC17460E3EC776C9A0687 /* Themes-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 7428520E0637C6324649CB337C044339 /* Themes-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		D7FF6063DBD579A934E4498BD32C3602 /* ThemeUser.swift in Sources */ = {isa = PBXBuildFile; fileRef = F81C607F2D5EA2DA7BD3EEDAA2BB36C2 /* ThemeUser.swift */; };
+		018AFAFEBEC3BA047C7E1273B04ABE4F /* Handler.swift in Sources */ = {isa = PBXBuildFile; fileRef = C98496F89E7C5E90B198AB0E5768D0CA /* Handler.swift */; };
+		2A562050144E02686856688A3F8FF11B /* ThemeManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A46E8517121F00434EED6C5211A7653 /* ThemeManager.swift */; };
+		47F083D60ACD130F8F7D26854561717C /* ThemeUser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 609D72E8635CE00BF2317B10E9F0C701 /* ThemeUser.swift */; };
+		6B300142524389FE8B62B1ECC9B9194E /* ThemePod-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B42A9CAA3BD25B940E69FC3FD6CA4F6 /* ThemePod-dummy.m */; };
+		A068DC38C3EDC293C87510C874384846 /* Notification.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3924DA9CC2945BF079DDD33227E79C4F /* Notification.swift */; };
+		B0590E05D13B87627AA7F324B81D4BB0 /* Theme.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB6B4AE88C9BF57A96DB9EEC1D824AC3 /* Theme.swift */; };
+		C75E4CF5F5D6494531110B39EF71A221 /* ThemePod-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 97BBE1B968664D2D8AFC1A32DD11E32A /* ThemePod-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CD371CEFFB72EDD3D274A9AF434D3CC8 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		CE6C088B52C4FF95F6384E8D64EF4984 /* Pods-Movie DB -dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 60878CA4A3C1E6D46B76832EB3F7FECF /* Pods-Movie DB -dummy.m */; };
+		DE44AF4A7182C6E8892ED8B14D9CEBF6 /* Pods-Movie DB -umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 536449160E42E90FEA43388CEFA513F0 /* Pods-Movie DB -umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FC038172B3BFAEFA30DF53F32D877647 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		85334AE24B3C264FB1C31DFFC7497D84 /* PBXContainerItemProxy */ = {
+		F858784E55B9207478DE8ADCDC756CAD /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 7965DE9B94078E1F94DD6DB7E23F0621;
-			remoteInfo = Themes;
+			remoteGlobalIDString = C95DF7A91DB01E7F3A517BF0B44F1846;
+			remoteInfo = ThemePod;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		0E05737A23A2AB14DCBB6B7A31BBDE43 /* ThemeManager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ThemeManager.swift; path = Sources/ThemeManager.swift; sourceTree = "<group>"; };
-		1B461309EEE98D4D353D806137AAB984 /* Theme.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Theme.swift; path = Sources/Theme.swift; sourceTree = "<group>"; };
-		2BF0FFDF61BC9A56A9DDCE00886A0F1F /* Themes.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = Themes.modulemap; sourceTree = "<group>"; };
-		3859B4424BCD889FE9FF888D19BA1D6F /* Handler.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Handler.swift; path = Sources/Handler.swift; sourceTree = "<group>"; };
+		0A46E8517121F00434EED6C5211A7653 /* ThemeManager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ThemeManager.swift; path = Classess/ThemeManager.swift; sourceTree = "<group>"; };
+		1B42A9CAA3BD25B940E69FC3FD6CA4F6 /* ThemePod-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "ThemePod-dummy.m"; sourceTree = "<group>"; };
+		3924DA9CC2945BF079DDD33227E79C4F /* Notification.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Notification.swift; path = Classess/Notification.swift; sourceTree = "<group>"; };
 		39C58B47B49973B1DCCBFE0A28F7C976 /* Pods-Movie DB  */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-Movie DB "; path = Pods_Movie_DB_.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		427C431C0EF29F275F1820F33ED22875 /* Themes-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Themes-dummy.m"; sourceTree = "<group>"; };
 		4727CBDACD00FF1F6FC6DB2596087322 /* Pods-Movie DB -acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Movie DB -acknowledgements.plist"; sourceTree = "<group>"; };
 		536449160E42E90FEA43388CEFA513F0 /* Pods-Movie DB -umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Movie DB -umbrella.h"; sourceTree = "<group>"; };
-		5EFF3C66D2A2C914633BD5640C5E8415 /* Themes-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Themes-prefix.pch"; sourceTree = "<group>"; };
+		5A18C70DEB937838F1FEA00D7858638D /* ThemePod-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ThemePod-Info.plist"; sourceTree = "<group>"; };
 		60878CA4A3C1E6D46B76832EB3F7FECF /* Pods-Movie DB -dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Movie DB -dummy.m"; sourceTree = "<group>"; };
+		609D72E8635CE00BF2317B10E9F0C701 /* ThemeUser.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ThemeUser.swift; path = Classess/ThemeUser.swift; sourceTree = "<group>"; };
+		6193E3F281C1F0BFB3FC45F96E1FF276 /* ThemePod.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ThemePod.release.xcconfig; sourceTree = "<group>"; };
 		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		7428520E0637C6324649CB337C044339 /* Themes-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Themes-umbrella.h"; sourceTree = "<group>"; };
-		75FC7733D672B4DA75B69D38FD3CB98B /* Themes.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Themes.release.xcconfig; sourceTree = "<group>"; };
 		772CADE18B1BC88C4194E9D29086A4F0 /* Pods-Movie DB -acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Movie DB -acknowledgements.markdown"; sourceTree = "<group>"; };
+		97BBE1B968664D2D8AFC1A32DD11E32A /* ThemePod-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ThemePod-umbrella.h"; sourceTree = "<group>"; };
+		9887C22AAD8FE0FC2784D4E1FA1D0740 /* ThemePod.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ThemePod.debug.xcconfig; sourceTree = "<group>"; };
 		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		9D98C0C67350701C54C5DB362E865817 /* Themes.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Themes.debug.xcconfig; sourceTree = "<group>"; };
-		A76F842019555DC629E5784DF4DDDC86 /* Notification.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Notification.swift; path = Sources/Notification.swift; sourceTree = "<group>"; };
 		AA82E3A0ACFD143E2097CF8D97E151D4 /* Pods-Movie DB -frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Movie DB -frameworks.sh"; sourceTree = "<group>"; };
-		CA189FE21F39424FD1022BE50C600402 /* Themes */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Themes; path = Themes.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		D95B0F57435D6426862B0C239D4F202B /* Themes-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Themes-Info.plist"; sourceTree = "<group>"; };
+		AACDC911E54B19BAFE2D655256AD8806 /* ThemePod-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ThemePod-prefix.pch"; sourceTree = "<group>"; };
+		C3896EB3FF3B5FD890AF4C97CFF212B2 /* ThemePod */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = ThemePod; path = ThemePod.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C98496F89E7C5E90B198AB0E5768D0CA /* Handler.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Handler.swift; path = Classess/Handler.swift; sourceTree = "<group>"; };
 		DCADCD275FF3A6FF2A6BA368455E867B /* Pods-Movie DB .release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Movie DB .release.xcconfig"; sourceTree = "<group>"; };
 		E197EEC26FEEFC7F30FF58D70A298CB4 /* Pods-Movie DB -Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Movie DB -Info.plist"; sourceTree = "<group>"; };
+		EB6B4AE88C9BF57A96DB9EEC1D824AC3 /* Theme.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Theme.swift; path = Classess/Theme.swift; sourceTree = "<group>"; };
 		ECA78641BE51D56818B3826473A0A6D3 /* Pods-Movie DB .modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-Movie DB .modulemap"; sourceTree = "<group>"; };
 		F7577460D0AF335340B72CF12BBE89EF /* Pods-Movie DB .debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Movie DB .debug.xcconfig"; sourceTree = "<group>"; };
-		F81C607F2D5EA2DA7BD3EEDAA2BB36C2 /* ThemeUser.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ThemeUser.swift; path = Sources/ThemeUser.swift; sourceTree = "<group>"; };
+		FDA9635DF5776D2F23327409CCDD3314 /* ThemePod.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = ThemePod.modulemap; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		BA58FDF4836715CC65990439627C0146 /* Frameworks */ = {
+		5D51C0B915BB3CF0163BFF339E683678 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8836E04DDA272783ED9B30BAD82DE0E8 /* Foundation.framework in Frameworks */,
+				FC038172B3BFAEFA30DF53F32D877647 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		D086EE8D94887D6A41DF308880E682BC /* Frameworks */ = {
+		7E1F64CC6400A9720D67822C3E4DBAB3 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1E895B5E3ECF9394F0BC3AAE2EF23664 /* Foundation.framework in Frameworks */,
+				CD371CEFFB72EDD3D274A9AF434D3CC8 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -94,18 +94,26 @@
 			name = iOS;
 			sourceTree = "<group>";
 		};
-		7C0020CCAD619CC87E54B0CF005C8846 /* Themes */ = {
+		99F8C5FF817754B2CD8061FA57BA3181 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				3859B4424BCD889FE9FF888D19BA1D6F /* Handler.swift */,
-				A76F842019555DC629E5784DF4DDDC86 /* Notification.swift */,
-				1B461309EEE98D4D353D806137AAB984 /* Theme.swift */,
-				0E05737A23A2AB14DCBB6B7A31BBDE43 /* ThemeManager.swift */,
-				F81C607F2D5EA2DA7BD3EEDAA2BB36C2 /* ThemeUser.swift */,
-				DDA6AC72E573A4A9A757B77575C1468E /* Support Files */,
+				AD7E153C47B452E4684B552006FCCFA1 /* ThemePod */,
 			);
-			name = Themes;
-			path = Themes;
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		AD7E153C47B452E4684B552006FCCFA1 /* ThemePod */ = {
+			isa = PBXGroup;
+			children = (
+				C98496F89E7C5E90B198AB0E5768D0CA /* Handler.swift */,
+				3924DA9CC2945BF079DDD33227E79C4F /* Notification.swift */,
+				EB6B4AE88C9BF57A96DB9EEC1D824AC3 /* Theme.swift */,
+				0A46E8517121F00434EED6C5211A7653 /* ThemeManager.swift */,
+				609D72E8635CE00BF2317B10E9F0C701 /* ThemeUser.swift */,
+				F5290BBC90F0363216D310464C3F369E /* Support Files */,
+			);
+			name = ThemePod;
+			path = ThemePod;
 			sourceTree = "<group>";
 		};
 		CF1408CF629C7361332E53B88F7BD30C = {
@@ -113,8 +121,8 @@
 			children = (
 				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
 				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
-				F2F02CB30FA3FDC5F6B543AE3531831D /* Pods */,
-				F5F2531E1F334C4E29C16BDCD112B85B /* Products */,
+				99F8C5FF817754B2CD8061FA57BA3181 /* Pods */,
+				DF182C7F0AC2BE5362F98445DA900930 /* Products */,
 				10352AF1C0244EAD119583CDB06D434F /* Targets Support Files */,
 			);
 			sourceTree = "<group>";
@@ -127,36 +135,28 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		DDA6AC72E573A4A9A757B77575C1468E /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				2BF0FFDF61BC9A56A9DDCE00886A0F1F /* Themes.modulemap */,
-				427C431C0EF29F275F1820F33ED22875 /* Themes-dummy.m */,
-				D95B0F57435D6426862B0C239D4F202B /* Themes-Info.plist */,
-				5EFF3C66D2A2C914633BD5640C5E8415 /* Themes-prefix.pch */,
-				7428520E0637C6324649CB337C044339 /* Themes-umbrella.h */,
-				9D98C0C67350701C54C5DB362E865817 /* Themes.debug.xcconfig */,
-				75FC7733D672B4DA75B69D38FD3CB98B /* Themes.release.xcconfig */,
-			);
-			name = "Support Files";
-			path = "../Target Support Files/Themes";
-			sourceTree = "<group>";
-		};
-		F2F02CB30FA3FDC5F6B543AE3531831D /* Pods */ = {
-			isa = PBXGroup;
-			children = (
-				7C0020CCAD619CC87E54B0CF005C8846 /* Themes */,
-			);
-			name = Pods;
-			sourceTree = "<group>";
-		};
-		F5F2531E1F334C4E29C16BDCD112B85B /* Products */ = {
+		DF182C7F0AC2BE5362F98445DA900930 /* Products */ = {
 			isa = PBXGroup;
 			children = (
 				39C58B47B49973B1DCCBFE0A28F7C976 /* Pods-Movie DB  */,
-				CA189FE21F39424FD1022BE50C600402 /* Themes */,
+				C3896EB3FF3B5FD890AF4C97CFF212B2 /* ThemePod */,
 			);
 			name = Products;
+			sourceTree = "<group>";
+		};
+		F5290BBC90F0363216D310464C3F369E /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				FDA9635DF5776D2F23327409CCDD3314 /* ThemePod.modulemap */,
+				1B42A9CAA3BD25B940E69FC3FD6CA4F6 /* ThemePod-dummy.m */,
+				5A18C70DEB937838F1FEA00D7858638D /* ThemePod-Info.plist */,
+				AACDC911E54B19BAFE2D655256AD8806 /* ThemePod-prefix.pch */,
+				97BBE1B968664D2D8AFC1A32DD11E32A /* ThemePod-umbrella.h */,
+				9887C22AAD8FE0FC2784D4E1FA1D0740 /* ThemePod.debug.xcconfig */,
+				6193E3F281C1F0BFB3FC45F96E1FF276 /* ThemePod.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/ThemePod";
 			sourceTree = "<group>";
 		};
 		FE9E078FC43D26C736C2BE206386A3A9 /* Pods-Movie DB  */ = {
@@ -179,60 +179,60 @@
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		2091BE0BDB02D8C0C9FB7D517B84037A /* Headers */ = {
+		66576A577E1B2D95FDDE82037877A20C /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6BBE694CD6101EA04FC686505699B535 /* Pods-Movie DB -umbrella.h in Headers */,
+				C75E4CF5F5D6494531110B39EF71A221 /* ThemePod-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		DF6D57E658E87D48981DA0B31CF75963 /* Headers */ = {
+		BA832424BC8EF990610C2BC370691185 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BDA66FB245CCC17460E3EC776C9A0687 /* Themes-umbrella.h in Headers */,
+				DE44AF4A7182C6E8892ED8B14D9CEBF6 /* Pods-Movie DB -umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		7965DE9B94078E1F94DD6DB7E23F0621 /* Themes */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 96B3F5E47262B2B0A4D1F42F4CC05A9A /* Build configuration list for PBXNativeTarget "Themes" */;
-			buildPhases = (
-				DF6D57E658E87D48981DA0B31CF75963 /* Headers */,
-				1B430F90139D96C9E7B9ABCA2DDEDA9C /* Sources */,
-				D086EE8D94887D6A41DF308880E682BC /* Frameworks */,
-				12DDEFB89B7A74880C6DF42F9F67D887 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = Themes;
-			productName = Themes;
-			productReference = CA189FE21F39424FD1022BE50C600402 /* Themes */;
-			productType = "com.apple.product-type.framework";
-		};
 		9F9E54C4913E04A53B4307D2527D1AC3 /* Pods-Movie DB  */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = D60E1090B67150606993CD0FF3BBCEC3 /* Build configuration list for PBXNativeTarget "Pods-Movie DB " */;
+			buildConfigurationList = BACFC0C16394E1EFF9141BEB21B0E592 /* Build configuration list for PBXNativeTarget "Pods-Movie DB " */;
 			buildPhases = (
-				2091BE0BDB02D8C0C9FB7D517B84037A /* Headers */,
-				CED79EB1FD8A182E59C4DCA71ECCE9F6 /* Sources */,
-				BA58FDF4836715CC65990439627C0146 /* Frameworks */,
-				1D648697F3AB388A6DA1B866A7C65148 /* Resources */,
+				BA832424BC8EF990610C2BC370691185 /* Headers */,
+				6F23FF395E84D510468BABE3E1DAAF63 /* Sources */,
+				7E1F64CC6400A9720D67822C3E4DBAB3 /* Frameworks */,
+				8F068550EA18358A7AD83C696A06DB98 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				477E8977C4245F561D8791DB4B17F657 /* PBXTargetDependency */,
+				40C3AB8783BEB8DBD7F0C6A66A8EB527 /* PBXTargetDependency */,
 			);
 			name = "Pods-Movie DB ";
 			productName = Pods_Movie_DB_;
 			productReference = 39C58B47B49973B1DCCBFE0A28F7C976 /* Pods-Movie DB  */;
+			productType = "com.apple.product-type.framework";
+		};
+		C95DF7A91DB01E7F3A517BF0B44F1846 /* ThemePod */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4132FF425C8D1BB1B25FFFC7710C1BAE /* Build configuration list for PBXNativeTarget "ThemePod" */;
+			buildPhases = (
+				66576A577E1B2D95FDDE82037877A20C /* Headers */,
+				ABACE2628636B3DC9CCB3317EB05DCD7 /* Sources */,
+				5D51C0B915BB3CF0163BFF339E683678 /* Frameworks */,
+				0E0F5D77305B4FEEB4AF0FB1EB0DD2FE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ThemePod;
+			productName = ThemePod;
+			productReference = C3896EB3FF3B5FD890AF4C97CFF212B2 /* ThemePod */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
@@ -253,25 +253,25 @@
 				en,
 			);
 			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
-			productRefGroup = F5F2531E1F334C4E29C16BDCD112B85B /* Products */;
+			productRefGroup = DF182C7F0AC2BE5362F98445DA900930 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
 				9F9E54C4913E04A53B4307D2527D1AC3 /* Pods-Movie DB  */,
-				7965DE9B94078E1F94DD6DB7E23F0621 /* Themes */,
+				C95DF7A91DB01E7F3A517BF0B44F1846 /* ThemePod */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		12DDEFB89B7A74880C6DF42F9F67D887 /* Resources */ = {
+		0E0F5D77305B4FEEB4AF0FB1EB0DD2FE /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		1D648697F3AB388A6DA1B866A7C65148 /* Resources */ = {
+		8F068550EA18358A7AD83C696A06DB98 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -281,39 +281,73 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		1B430F90139D96C9E7B9ABCA2DDEDA9C /* Sources */ = {
+		6F23FF395E84D510468BABE3E1DAAF63 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				46503215C3D333BC0541602084FEAB02 /* Handler.swift in Sources */,
-				132DE0725E947B12A81311F26C81D0A4 /* Notification.swift in Sources */,
-				90D1100DC5097E004D1EDAC1B4AE197D /* Theme.swift in Sources */,
-				A6F396BC99F3B84B6077C2D46615090C /* ThemeManager.swift in Sources */,
-				90E595F2D7010E0284BFA3B7DD0CAED4 /* Themes-dummy.m in Sources */,
-				D7FF6063DBD579A934E4498BD32C3602 /* ThemeUser.swift in Sources */,
+				CE6C088B52C4FF95F6384E8D64EF4984 /* Pods-Movie DB -dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		CED79EB1FD8A182E59C4DCA71ECCE9F6 /* Sources */ = {
+		ABACE2628636B3DC9CCB3317EB05DCD7 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4ECE1D925EE23EEAC473AD3FD0EAD691 /* Pods-Movie DB -dummy.m in Sources */,
+				018AFAFEBEC3BA047C7E1273B04ABE4F /* Handler.swift in Sources */,
+				A068DC38C3EDC293C87510C874384846 /* Notification.swift in Sources */,
+				B0590E05D13B87627AA7F324B81D4BB0 /* Theme.swift in Sources */,
+				2A562050144E02686856688A3F8FF11B /* ThemeManager.swift in Sources */,
+				6B300142524389FE8B62B1ECC9B9194E /* ThemePod-dummy.m in Sources */,
+				47F083D60ACD130F8F7D26854561717C /* ThemeUser.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		477E8977C4245F561D8791DB4B17F657 /* PBXTargetDependency */ = {
+		40C3AB8783BEB8DBD7F0C6A66A8EB527 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			name = Themes;
-			target = 7965DE9B94078E1F94DD6DB7E23F0621 /* Themes */;
-			targetProxy = 85334AE24B3C264FB1C31DFFC7497D84 /* PBXContainerItemProxy */;
+			name = ThemePod;
+			target = C95DF7A91DB01E7F3A517BF0B44F1846 /* ThemePod */;
+			targetProxy = F858784E55B9207478DE8ADCDC756CAD /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
+		06C2CDF3A1CF9A57447463FC09B0DAD4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9887C22AAD8FE0FC2784D4E1FA1D0740 /* ThemePod.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/ThemePod/ThemePod-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/ThemePod/ThemePod-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/ThemePod/ThemePod.modulemap";
+				PRODUCT_MODULE_NAME = ThemePod;
+				PRODUCT_NAME = ThemePod;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
 		25AD9454612BF454A1E3DC4CD4FA8C6D /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -380,11 +414,10 @@
 			};
 			name = Debug;
 		};
-		94EFBDAE235A8A1AB25AA14115801B8F /* Release */ = {
+		5EA79DDFE930C21FA6600D61EEEBB155 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = DCADCD275FF3A6FF2A6BA368455E867B /* Pods-Movie DB .release.xcconfig */;
+			baseConfigurationReference = 6193E3F281C1F0BFB3FC45F96E1FF276 /* ThemePod.release.xcconfig */;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
@@ -393,7 +426,8 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-Movie DB /Pods-Movie DB -Info.plist";
+				GCC_PREFIX_HEADER = "Target Support Files/ThemePod/ThemePod-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/ThemePod/ThemePod-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -401,49 +435,13 @@
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-Movie DB /Pods-Movie DB .modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		A4ACAF0F8F4C9FBCFCAD4AC91535754E /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 75FC7733D672B4DA75B69D38FD3CB98B /* Themes.release.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/Themes/Themes-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/Themes/Themes-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				MODULEMAP_FILE = "Target Support Files/Themes/Themes.modulemap";
-				PRODUCT_MODULE_NAME = Themes;
-				PRODUCT_NAME = Themes;
+				MODULEMAP_FILE = "Target Support Files/ThemePod/ThemePod.modulemap";
+				PRODUCT_MODULE_NAME = ThemePod;
+				PRODUCT_NAME = ThemePod;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
@@ -451,7 +449,7 @@
 			};
 			name = Release;
 		};
-		B88E5C9C9C0DDE1192ACE9EDECBBC590 /* Debug */ = {
+		8012A0F8328D8D73A1F60D0ACB36D4BF /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = F7577460D0AF335340B72CF12BBE89EF /* Pods-Movie DB .debug.xcconfig */;
 			buildSettings = {
@@ -481,39 +479,6 @@
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		C370CDE1A33D196F8DBCF2DB0680F7C8 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 9D98C0C67350701C54C5DB362E865817 /* Themes.debug.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/Themes/Themes-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/Themes/Themes-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				MODULEMAP_FILE = "Target Support Files/Themes/Themes.modulemap";
-				PRODUCT_MODULE_NAME = Themes;
-				PRODUCT_NAME = Themes;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
@@ -582,9 +547,55 @@
 			};
 			name = Release;
 		};
+		E4A43DB263B72B95E454F28B0E86B663 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DCADCD275FF3A6FF2A6BA368455E867B /* Pods-Movie DB .release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-Movie DB /Pods-Movie DB -Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Movie DB /Pods-Movie DB .modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		4132FF425C8D1BB1B25FFFC7710C1BAE /* Build configuration list for PBXNativeTarget "ThemePod" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				06C2CDF3A1CF9A57447463FC09B0DAD4 /* Debug */,
+				5EA79DDFE930C21FA6600D61EEEBB155 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -594,20 +605,11 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		96B3F5E47262B2B0A4D1F42F4CC05A9A /* Build configuration list for PBXNativeTarget "Themes" */ = {
+		BACFC0C16394E1EFF9141BEB21B0E592 /* Build configuration list for PBXNativeTarget "Pods-Movie DB " */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				C370CDE1A33D196F8DBCF2DB0680F7C8 /* Debug */,
-				A4ACAF0F8F4C9FBCFCAD4AC91535754E /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		D60E1090B67150606993CD0FF3BBCEC3 /* Build configuration list for PBXNativeTarget "Pods-Movie DB " */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				B88E5C9C9C0DDE1192ACE9EDECBBC590 /* Debug */,
-				94EFBDAE235A8A1AB25AA14115801B8F /* Release */,
+				8012A0F8328D8D73A1F60D0ACB36D4BF /* Debug */,
+				E4A43DB263B72B95E454F28B0E86B663 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

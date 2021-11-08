@@ -6,7 +6,7 @@
 //
 
 import UIKit
-import Themes
+import ThemePod
 
 struct ThemeProperties: Theme {
     var background: UIColor

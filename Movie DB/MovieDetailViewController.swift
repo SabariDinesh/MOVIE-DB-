@@ -6,7 +6,7 @@
 //
 
 import UIKit
-import Themes
+import ThemePod
 
 class MovieDetailViewController: UIViewController  {
 
