@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		059A365050083071FC40B098 /* Pods_Movie_DB_.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 15D5353167E8DF11DEB430D8 /* Pods_Movie_DB_.framework */; };
+		5C2C6ADD273B8DE500BB4B37 /* OurThemeManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C2C6ADC273B8DE500BB4B37 /* OurThemeManager.swift */; };
 		5C361C83271ED6B4004EACDD /* ThemeProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C361C82271ED6B4004EACDD /* ThemeProperties.swift */; };
 		5C799B4B271D608E003A8893 /* MovieDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C799B4A271D608E003A8893 /* MovieDetailViewController.swift */; };
 		5C86F2D7271911D200520FFC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C86F2D6271911D200520FFC /* AppDelegate.swift */; };
@@ -23,6 +24,7 @@
 
 /* Begin PBXFileReference section */
 		15D5353167E8DF11DEB430D8 /* Pods_Movie_DB_.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Movie_DB_.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5C2C6ADC273B8DE500BB4B37 /* OurThemeManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OurThemeManager.swift; sourceTree = "<group>"; };
 		5C361C82271ED6B4004EACDD /* ThemeProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThemeProperties.swift; sourceTree = "<group>"; };
 		5C799B4A271D608E003A8893 /* MovieDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieDetailViewController.swift; sourceTree = "<group>"; };
 		5C86F2D3271911D200520FFC /* Movie DB .app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Movie DB .app"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -159,6 +161,7 @@
 			isa = PBXGroup;
 			children = (
 				5C361C82271ED6B4004EACDD /* ThemeProperties.swift */,
+				5C2C6ADC273B8DE500BB4B37 /* OurThemeManager.swift */,
 			);
 			path = Theme;
 			sourceTree = "<group>";
@@ -282,6 +285,7 @@
 				5C86F2DB271911D200520FFC /* MainViewController.swift in Sources */,
 				5C86F2D7271911D200520FFC /* AppDelegate.swift in Sources */,
 				5C86F2E1271911D200520FFC /* Movie DB.xcdatamodeld in Sources */,
+				5C2C6ADD273B8DE500BB4B37 /* OurThemeManager.swift in Sources */,
 				5C361C83271ED6B4004EACDD /* ThemeProperties.swift in Sources */,
 				5C799B4B271D608E003A8893 /* MovieDetailViewController.swift in Sources */,
 				5CAE1405271A6624009EE0BD /* DataFormat.swift in Sources */,

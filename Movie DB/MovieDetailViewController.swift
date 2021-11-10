@@ -12,7 +12,8 @@ class MovieDetailViewController: UIViewController  {
 
     var vcImage = UIImageView()
     let label = UILabel()
-
+    let ourThemeManager = OurThemeManager()
+    
     @objc func tappedButton(){
         dismiss(animated: true, completion: nil)
     }
@@ -44,11 +45,8 @@ class MovieDetailViewController: UIViewController  {
         label.textAlignment = .center
         label.numberOfLines = 0
         vcImage.frame = view.bounds
-        use(ThemeProperties.self){
-        $0.label.backgroundColor = $1.MovieDetailViewController
-        $0.label.textColor = $1.text
-        $0.view.backgroundColor = $1.background
-        }
+        ourThemeManager.movieDetailViewControllerThemeSpecification(for: self)
+        
     }
 
 }

@@ -18,6 +18,7 @@ class CellConfiguration: UICollectionViewCell{
     var cellImageUrl: String?
     let imageCache = NSCache<NSString, UIImage>()
     var constraintsArray: [NSLayoutConstraint] = []
+    let ourThemeManager = OurThemeManager()
     
     override func awakeFromNib() {
         super.awakeFromNib()
@@ -85,12 +86,7 @@ class CellConfiguration: UICollectionViewCell{
     }
     
     func setColors(){
-        use(ThemeProperties.self){
-            $0.titleLable.textColor = $1.text
-            $0.voteAverage.textColor = $1.text
-            $0.originalLanguage.textColor = $1.text
-            $0.contentView.backgroundColor = $1.cell
-        }
+        ourThemeManager.collectionViewCellThemeSpecification(for: self)
     }
     
     func setLanguage(with language:String){

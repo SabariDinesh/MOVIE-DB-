@@ -9,6 +9,7 @@ class MainViewController: UIViewController{
     var appTitle = UILabel()
     var switchButton = UISwitch()
     var myCollectionView: UICollectionView?
+    let ourThemeManager = OurThemeManager()
     
     //other variables
     var movieArray: [Movie] = []
@@ -65,15 +66,7 @@ class MainViewController: UIViewController{
         myCollectionView = UICollectionView(frame: .zero, collectionViewLayout: MainViewController.createLayout())
         myCollectionView?.register(CellConfiguration.self, forCellWithReuseIdentifier: CellConfiguration.identifier)
         
-        //$0 -> first parameter in that closure of the third party app
-        //$1 -> second parameter in that closure of the third party app
-        use(ThemeProperties.self){
-            $0.view.backgroundColor = $1.background
-            $0.myCollectionView?.backgroundColor = $1.background
-            $0.appTitle.textColor = $1.titleColor
-            $0.upcomingFilter.setTitleColor($1.switchColor, for: .normal)
-        }
-        
+        ourThemeManager.mainViewControllerThemeSpecification(for: self)
         searchBar.layer.cornerRadius = 10
         searchBar.barStyle = .default
         searchBar.placeholder = " search"
@@ -131,13 +124,7 @@ class MainViewController: UIViewController{
     }
     
     func applyTheme(){
-       use(ThemeProperties.self){
-            $0.view.backgroundColor = $1.background
-            $0.myCollectionView?.backgroundColor = $1.background
-            $0.appTitle.textColor = $1.titleColor
-            $0.upcomingFilter.setTitleColor($1.switchColor, for: .normal)
-            $0.myCollectionView?.reloadData()
-        }
+        ourThemeManager.mainViewControllerThemeSpecification(for: self)
     }
     
     func settingDelegates(){
